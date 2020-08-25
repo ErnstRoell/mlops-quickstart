@@ -45,11 +45,6 @@ az devops service-endpoint create \
 scid=$(cat ./logs/sc-logs.txt | jq -r ".id")
 echo $scid
 
-az devops service-endpoint update \
-	--enable-for-all \
-	--id $scid \
-	--organization $orguri \
-	--project $project 
 
 az pipelines create \
 	--name "mlops-pipeline-test" \
@@ -60,3 +55,8 @@ az pipelines create \
 	--repository-type tfsgit 
 
 
+az devops service-endpoint update \
+	--enable-for-all \
+	--id $scid \
+	--organization $orguri \
+	--project $project 

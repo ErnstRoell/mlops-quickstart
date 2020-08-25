@@ -9,7 +9,7 @@
             "value": "mlops-myworkspace"
         },
         "storageAccountName": {
-            "value": "mlopsworkspace7383"
+            "value": "mlopsworkspace7385"
         },
         "storageAccountId": {
             "value": ""
@@ -18,10 +18,10 @@
             "value": ""
         },
         "applicationInsightsName": {
-            "value": "mlopsworkspace7383"
+            "value": "mlopsworkspace7385"
         },
         "keyVaultName": {
-            "value": "mlopsworkspace7383"
+            "value": "mlopsworkspace7385"
         },
         "keyVaultId": {
             "value": ""

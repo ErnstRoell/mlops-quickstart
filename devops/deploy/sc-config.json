@@ -5,7 +5,7 @@
             "serviceprincipalid": "",
             "serviceprincipalkey": "",
             "authenticationType": "spnKey",
-            "scope": "/subscriptions/d30d76c0-804c-4f4e-ab7b-509d06a49550/resourcegroups/mlops-quickstart-7383/providers/Microsoft.MachineLearningServices/workspaces/mlops-myworkspace"
+            "scope": "/subscriptions/d30d76c0-804c-4f4e-ab7b-509d06a49550/resourcegroups/mlops-quickstart-7385/providers/Microsoft.MachineLearningServices/workspaces/mlops-myworkspace"
         },
         "scheme": "ServicePrincipal"
     },
@@ -15,7 +15,7 @@
         "scopeLevel": "AzureMLWorkspace",
         "subscriptionId": "d30d76c0-804c-4f4e-ab7b-509d06a49550",
         "subscriptionName": "Microsoft internal subscription",
-        "resourceGroupName": "mlops-quickstart-7383",
+        "resourceGroupName": "mlops-quickstart-7385",
         "mlWorkspaceName": "mlops-myworkspace",
         "mlWorkspaceLocation": "westeurope",
         "managementGroupId": "",
@@ -43,8 +43,8 @@
             "description": "BLA",
             "name": "mlops-sc",
             "projectReference": {
-                "id": "000ad018-b734-4fef-9a15-ad5df02e39b3",
-                "name": "mlops-quickstart-7383"
+                "id": "1508ab4c-3d2f-4e88-ae26-3bd47b79a6e0",
+                "name": "mlops-quickstart-7385"
             }
         }
     ]
