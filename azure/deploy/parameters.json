@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "workspaceName": {
+            "value": "mlops-myworkspace"
+        },
+        "storageAccountName": {
+            "value": "mlopsworkspace7383"
+        },
+        "storageAccountId": {
+            "value": ""
+        },
+        "applicationInsightsId": {
+            "value": ""
+        },
+        "applicationInsightsName": {
+            "value": "mlopsworkspace7383"
+        },
+        "keyVaultName": {
+            "value": "mlopsworkspace7383"
+        },
+        "keyVaultId": {
+            "value": ""
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "sku": {
+            "value": "Basic"
+        }
+    }
+}

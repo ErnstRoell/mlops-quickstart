@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "westeurope"
+            "value": "${location}"
         },
         "workspaceName": {
-            "value": "mlops-myworkspace"
+            "value": "${workspace}"
         },
         "storageAccountName": {
-            "value": "mlopsworkspace7381"
+            "value": "mlopsworkspace${rnd}"
         },
         "storageAccountId": {
             "value": ""
@@ -18,10 +18,10 @@
             "value": ""
         },
         "applicationInsightsName": {
-            "value": "mlopsworkspace7381"
+            "value": "mlopsworkspace${rnd}"
         },
         "keyVaultName": {
-            "value": "mlopsworkspace7381"
+            "value": "mlopsworkspace${rnd}"
         },
         "keyVaultId": {
             "value": ""

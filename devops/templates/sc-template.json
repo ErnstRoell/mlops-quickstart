@@ -1,0 +1,51 @@
+{
+    "authorization": {
+        "parameters": {
+            "tenantid": "${tenantid}",
+            "serviceprincipalid": "",
+            "serviceprincipalkey": "",
+            "authenticationType": "spnKey",
+            "scope": "/subscriptions/${subscription}/resourcegroups/${resourcegroup}/providers/Microsoft.MachineLearningServices/workspaces/${workspace}"
+        },
+        "scheme": "ServicePrincipal"
+    },
+    "createdBy": {},
+    "data": {
+        "environment": "AzureCloud",
+        "scopeLevel": "AzureMLWorkspace",
+        "subscriptionId": "${subscription}",
+        "subscriptionName": "Microsoft internal subscription",
+        "resourceGroupName": "${resourcegroup}",
+        "mlWorkspaceName": "${workspace}",
+        "mlWorkspaceLocation": "${location}",
+        "managementGroupId": "",
+        "managementGroupName": "",
+        "oboAuthorization": "",
+        "creationMode": "Automatic",
+        "azureSpnRoleAssignmentId": "",
+        "azureSpnPermissions": "",
+        "spnObjectId": "",
+        "appObjectId": "",
+        "resourceId": ""
+    },
+    "isShared": false,
+    "name": "${serviceconnection}",
+    "owner": "library",
+    "type": "azurerm",
+    "url": "https://management.azure.com/",
+    "administratorsGroup": null,
+    "description": "BLA",
+    "groupScopeId": null,
+    "operationStatus": null,
+    "readersGroup": null,
+    "serviceEndpointProjectReferences": [
+        {
+            "description": "BLA",
+            "name": "${serviceconnection}",
+            "projectReference": {
+                "id": "${projectid}",
+                "name": "${project}"
+            }
+        }
+    ]
+}
