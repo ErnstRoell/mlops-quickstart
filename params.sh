@@ -1,0 +1,16 @@
+export rnd=7383
+export resourcegroup="mlops-quickstart-$rnd"
+export location="westeurope"
+export workspace="mlops-myworkspace"
+export project="mlops-quickstart-$rnd"
+export repository="mlops-repo-$rnd"
+export organization="mlops-template"
+export orguri="https://dev.azure.com/$organization/"
+export serviceconnection="mlops-sc"
+export variablegroup="vargroup"
+export experiment="mlops-experiment"
+export compute="aml-compute-$rnd"
+export model_name="compliance-classifier"
+export image_name="compliance-classifier-image"
+export AZURE_DEVOPS_EXT_PAT=6wonqckz5hrmaoqgxcd3bs2gu6mjguahepmdzaf7y7ksk64hfg4a
+export datastorage="mlops-data-$rnd"
