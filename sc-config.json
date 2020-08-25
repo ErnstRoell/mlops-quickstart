@@ -1,0 +1,51 @@
+{
+    "authorization": {
+        "parameters": {
+            "tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "serviceprincipalid": "",
+            "serviceprincipalkey": "",
+            "authenticationType": "spnKey",
+            "scope": "/subscriptions/d30d76c0-804c-4f4e-ab7b-509d06a49550/resourcegroups/mlops-quickstart-7381/providers/Microsoft.MachineLearningServices/workspaces/mlops-myworkspace"
+        },
+        "scheme": "ServicePrincipal"
+    },
+    "createdBy": {},
+    "data": {
+        "environment": "AzureCloud",
+        "scopeLevel": "AzureMLWorkspace",
+        "subscriptionId": "d30d76c0-804c-4f4e-ab7b-509d06a49550",
+        "subscriptionName": "Microsoft internal subscription",
+        "resourceGroupName": "mlops-quickstart-7381",
+        "mlWorkspaceName": "mlops-myworkspace",
+        "mlWorkspaceLocation": "westeurope",
+        "managementGroupId": "",
+        "managementGroupName": "",
+        "oboAuthorization": "",
+        "creationMode": "Automatic",
+        "azureSpnRoleAssignmentId": "",
+        "azureSpnPermissions": "",
+        "spnObjectId": "",
+        "appObjectId": "",
+        "resourceId": ""
+    },
+    "isShared": false,
+    "name": "mlops-sc",
+    "owner": "library",
+    "type": "azurerm",
+    "url": "https://management.azure.com/",
+    "administratorsGroup": null,
+    "description": "BLA",
+    "groupScopeId": null,
+    "operationStatus": null,
+    "readersGroup": null,
+    "serviceEndpointProjectReferences": [
+        {
+            "description": "BLA",
+            "name": "mlops-sc",
+            "projectReference": {
+                "id": "da0aa43a-77c3-452c-bcce-9dd941d919ca",
+                "name": "mlops-quickstart-7381"
+            }
+        }
+    ]
+}
