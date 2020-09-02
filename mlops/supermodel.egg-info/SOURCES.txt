@@ -1,0 +1,9 @@
+README.md
+__init__.py
+__main__.py
+run.py
+setup.py
+supermodel.egg-info/PKG-INFO
+supermodel.egg-info/SOURCES.txt
+supermodel.egg-info/dependency_links.txt
+supermodel.egg-info/top_level.txt
